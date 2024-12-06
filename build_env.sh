@@ -2,6 +2,7 @@
 
 # Copy vimrc to home directory
 cp ./vimrc $HOME/.vimrc
+mkdir -p $HOME/.vim
 cp ./coc-settings.json $HOME/.vim/coc-settings.json
 
 # Update and install dependencies

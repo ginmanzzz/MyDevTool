@@ -9,7 +9,7 @@ COPY ./vimrc /root
 # Build script
 COPY ./build_env.sh /root
 # COC config
-COPY ./coc-settings.json /root/.vim/
+COPY ./coc-settings.json /root/
 
 RUN chmod +x /root/build_env.sh
 
