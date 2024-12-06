@@ -6,6 +6,9 @@ WORKDIR /app
 
 # VIM
 COPY ./vimrc /root
+# Build script
+COPY ./build_env.sh /root
 
+RUN chmod +x /root/build_env.sh
 
 CMD ["/bin/bash"]
