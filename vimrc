@@ -51,6 +51,7 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 "  --------
 "  coc
 "  -------
+let g:coc_disable_startup_warning = 1
 let g:coc_global_extensions = [
  \ 'coc-json',
  \ 'coc-vimlsp']

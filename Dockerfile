@@ -8,6 +8,8 @@ WORKDIR /app
 COPY ./vimrc /root
 # Build script
 COPY ./build_env.sh /root
+# COC config
+COPY ./coc-settings.json /root/.vim/
 
 RUN chmod +x /root/build_env.sh
 
