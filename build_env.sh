@@ -10,7 +10,7 @@ apt update && apt upgrade -y
 apt-get install git vim curl wget -y
 
 # Install nvm
-git clone https://ghproxy.com/https://github.com/nvm-sh/nvm.git ~/.nvm
+git clone https://github.com/nvm-sh/nvm.git ~/.nvm
 cd ~/.nvm
 git checkout v0.39.5
 
@@ -35,7 +35,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # Install vim-plug
-git clone https://ghproxy.com/https://github.com/junegunn/vim-plug.git
+git clone https://github.com/junegunn/vim-plug.git
 mkdir -p ~/.vim/autoload
 cp vim-plug/plug.vim ~/.vim/autoload/
 rm -rf vim-plug
